@@ -1,8 +1,9 @@
 ﻿
 using _1._Two_Sum;
 
-var nums = new int[4] { 2, 7, 11, 15 };
-int target = 9;
+//var nums = new int[5] { -1, -2, -3, -4, -5 };
+var nums = new int[3] { 3, 2, 4 };
+int target = 6;
 
 var res = Helper.TwoSum(nums, target);
 

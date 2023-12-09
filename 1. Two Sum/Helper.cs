@@ -1,21 +1,35 @@
 ﻿namespace _1._Two_Sum
 {
+    using System.Collections.Generic;
+
     public static class Helper
     {
         public static int[] TwoSum(int[] nums, int target)
         {
-            for (int i = 0; i < nums.Length; i++)
+            var sortedList = new List<Tuple<int, int>>();
+
+            for (var i = 0; i < nums.Count(); i++)
             {
-                for (int j = 1; j < nums.Length; j++)
+                sortedList.Add(new Tuple<int, int>(nums[i], i));
+            }
+
+            sortedList.Sort();
+
+            for (int i = 0; i < sortedList.Count; i++)
+            {
+                for (int j = 0; j < sortedList.Count; j++)
                 {
                     if (i == j)
                     {
                         continue;
                     }
-
-                    if ((nums[i] + nums[j]) == target)
+                    if (sortedList[i].Item1 + sortedList[j].Item1 > target)
                     {
-                        return new int[2] { i, j };
+                        break;
+                    }
+                    if (sortedList[i].Item1 + sortedList[j].Item1 == target)
+                    {
+                        return new int[2] { sortedList[i].Item2, sortedList[j].Item2 };
                     }
                 }
             }
