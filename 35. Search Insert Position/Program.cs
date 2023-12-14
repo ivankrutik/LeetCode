@@ -29,8 +29,8 @@ nums contains distinct values sorted in ascending order.
 
 using _35._Search_Insert_Position;
 
-var nums = new int[] { 1, 3, 5, 6 };
-var target = 7;
+var nums = new int[] { 1, 3, 5};
+var target = 4;
 
 var r = Helper.SearchInsert(nums, target);
 
