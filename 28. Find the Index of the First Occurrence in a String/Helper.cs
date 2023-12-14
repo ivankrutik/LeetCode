@@ -1,59 +1,39 @@
-﻿using static System.Net.Mime.MediaTypeNames;
-
-namespace _28._Find_the_Index_of_the_First_Occurrence_in_a_String
+﻿namespace _28._Find_the_Index_of_the_First_Occurrence_in_a_String
 {
     internal static class Helper
     {
-        static int[] GetPrefix(string s)
-        {
-            int[] result = new int[s.Length];
-            result[0] = 0;
-            int index = 0;
-
-            for (int i = 1; i < s.Length; i++)
-            {
-                int k = result[i - 1];
-                while (s[k] != s[i] && k > 0)
-                {
-                    k = result[k - 1];
-                }
-                if (s[k] == s[i])
-                {
-                    result[i] = k + 1;
-                }
-                else
-                {
-                    result[i] = 0;
-                }
-            }
-            return result;
-        }
-
-
         public static int StrStr(string haystack, string needle)
         {
-            if (haystack == null || needle == null)
+            if (haystack == null || needle == null || haystack.Length < needle.Length)
             {
                 return -1;
             }
 
-            int[] pf = GetPrefix(needle);
+            int mathCount = 0;
 
-            int index = 0;
-
-            for (int i = 0; i < haystack.Length; i++)
+            for (var j = 0; j < haystack.Length; j++)
             {
-                while (index > 0 && needle[index] != haystack[i])
-                { 
-                    index = pf[index - 1]; 
-                }
-
-                if (needle[index] == haystack[i]) 
-                    index++;
-
-                if (index == needle.Length)
+                //проверка по первому символу
+                if (needle[0] == haystack[j])
                 {
-                    return i - index + 1;
+                    mathCount = 0;
+
+                    for (var i = 0; i < needle.Length; i++)
+                    {
+                        if ((j + i) < haystack.Length && haystack[j + i] == needle[i])
+                        {
+                            mathCount++;
+                        }
+                        else
+                        {
+                            break;
+                        }
+                    }
+
+                    if (mathCount == needle.Length)
+                    {
+                        return j;
+                    }
                 }
             }
 

@@ -24,8 +24,11 @@ haystack and needle consist of only lowercase English characters.
 
 using _28._Find_the_Index_of_the_First_Occurrence_in_a_String;
 
-var haystack = "gtrkiusadadbutsad";
-var needle = "sadad";
+//var haystack = "htrusadadbutsad";
+//var needle = "sadad";
+
+var haystack = "mississippi";
+var needle = "issipi";
 
 var res = Helper.StrStr(haystack, needle);
 
