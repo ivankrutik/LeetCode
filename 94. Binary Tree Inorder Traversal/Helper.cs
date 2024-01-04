@@ -2,26 +2,30 @@
 {
     internal static class Helper
     {
-        private static void getData(TreeNode node, ref IList<int> res)
-        {           
-            if (node.left != null)
-            {
-                getData(node.left, ref res);
-            }
-            res.Add(node.val);
-            if (node.right != null)
-            {
-                getData(node.right, ref res);
-            }
-        }
-
         public static IList<int> InorderTraversal(TreeNode root)
         {
+            Stack<TreeNode> s = new Stack<TreeNode>();
             IList<int> res = new List<int>();
-            if (root == null)
-                return res;
+            var curr = root;
 
-            getData(root, ref res);
+            while (true)
+            {
+                if (curr != null)
+                {
+                    s.Push(curr);
+                    curr = curr.left;
+                }
+                else
+                {
+                    if (!s.Any())
+                        break;
+
+                    curr = s.Peek();
+                    res.Add(curr.val);
+                    s.Pop();
+                    curr = curr.right;
+                }
+            }
 
             return res;
         }
