@@ -4,12 +4,27 @@
     {
         public static int MajorityElement(int[] nums)
         {
-            var res = nums.GroupBy(x => x).
-                Select(z => new { ValueData = z, Count = z.Count() }).
-                FirstOrDefault(x => x.Count == nums.GroupBy(x => x).
-                Select(z => new { ValueData = z, Count = z.Count() }).
-                Max(z => z.Count)).ValueData.FirstOrDefault();
-            return res;
+            int counter = 1;
+            int val = nums[0];
+
+            for (int i = 1; i < nums.Length; i++)
+            {
+                if (val != nums[i])
+                {
+                    counter--;
+                    if (counter == 0)
+                    {
+                        counter = 1;
+                        val = nums[i];
+                    }
+                }
+                else
+                {
+                    counter++;
+                }
+            }
+
+            return val;
         }
     }
 }
