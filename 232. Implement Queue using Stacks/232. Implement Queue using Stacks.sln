@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "232. Implement Queue using Stacks", "232. Implement Queue using Stacks.csproj", "{8139A685-2031-4DEC-9123-F2DC3D02AECD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8139A685-2031-4DEC-9123-F2DC3D02AECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8139A685-2031-4DEC-9123-F2DC3D02AECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8139A685-2031-4DEC-9123-F2DC3D02AECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8139A685-2031-4DEC-9123-F2DC3D02AECD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9FF5422-C8F5-46EE-B860-6C9FFE936509}
+	EndGlobalSection
+EndGlobal
