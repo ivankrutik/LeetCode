@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "108. Convert Sorted Array to Binary Search Tree", "108. Convert Sorted Array to Binary Search Tree.csproj", "{EC2049C9-64BD-4E15-9D3B-B961BC383881}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC2049C9-64BD-4E15-9D3B-B961BC383881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC2049C9-64BD-4E15-9D3B-B961BC383881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC2049C9-64BD-4E15-9D3B-B961BC383881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC2049C9-64BD-4E15-9D3B-B961BC383881}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB8CA316-39C6-4BF5-B528-836CA69AC65D}
+	EndGlobalSection
+EndGlobal
