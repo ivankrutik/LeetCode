@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2965. Find Missing and Repeated Values", "2965. Find Missing and Repeated Values.csproj", "{B341F78C-676B-4376-9348-4AE58BA89DB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B341F78C-676B-4376-9348-4AE58BA89DB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B341F78C-676B-4376-9348-4AE58BA89DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B341F78C-676B-4376-9348-4AE58BA89DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B341F78C-676B-4376-9348-4AE58BA89DB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3AAA2D16-ADFF-4E9C-89FD-9CF9C2DDF330}
+	EndGlobalSection
+EndGlobal
