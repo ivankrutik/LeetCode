@@ -21,7 +21,7 @@ Constraints:
 */
 using _3005._Count_Elements_With_Maximum_Frequency;
 
-var nums = new int[] { 1, 2, 3, 4, 5 };
+var nums = new int[] { 1, 2, 3, 4, 5};
 var res = Helper.MaxFrequencyElements(nums);
 
 Console.WriteLine(res);

@@ -4,8 +4,22 @@
     {
         public static int MaxFrequencyElements(int[] nums)
         {
-            var res = nums.GroupBy(x => x).Select(group => new { Value = group.Key, Count = group.Count() });
-            var r = res.Where(w=>w.Count == res.Max(m=>m.Count)).Sum(s=>s.Count);
+            var resArr = new int[101];
+            for (int i = 0; i < nums.Length; i++)
+            {
+                resArr[nums[i]]++; 
+            }
+            Array.Sort(resArr);
+            int r = 0;
+            for (int i = resArr.Length-1; i>=0; i--)
+            {
+                r = r + resArr[i];
+                if (resArr[i] == resArr[i-1])
+                { 
+                    continue;
+                }
+                break;
+            }
             return r;
         }
     }
