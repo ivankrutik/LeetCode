@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1289. Minimum Falling Path Sum II", "1289. Minimum Falling Path Sum II.csproj", "{60085D6B-80C9-48E2-94BD-0835A8914833}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60085D6B-80C9-48E2-94BD-0835A8914833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60085D6B-80C9-48E2-94BD-0835A8914833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60085D6B-80C9-48E2-94BD-0835A8914833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60085D6B-80C9-48E2-94BD-0835A8914833}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3EC41DE8-C80F-4578-A069-EA17147ACB25}
+	EndGlobalSection
+EndGlobal
