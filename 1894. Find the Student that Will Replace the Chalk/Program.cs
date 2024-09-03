@@ -49,8 +49,8 @@ chalk.length == n
 
 using _1894._Find_the_Student_that_Will_Replace_the_Chalk;
 
-var chalk = new int[] { 3, 4, 1, 2 };
-var k = 25;
+var chalk = new int[] { 5, 1, 5 };
+var k = 22;
 var r = Helper.ChalkReplacer(chalk, k);
 
 Console.WriteLine(r);

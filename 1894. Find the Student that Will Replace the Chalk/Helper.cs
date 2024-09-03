@@ -4,6 +4,17 @@
     {
         public static int ChalkReplacer(int[] chalk, int k)
         {
+            long sum = 0;
+            foreach (var c in chalk)
+            { 
+                sum += c;
+            }
+            int modRes = (int)(k / sum);
+            k = (int)(k - (modRes * sum));
+
+            if (k==0)
+                return 0;
+
             int i = 0;
             while (k - chalk[i] >= 0)
             {
