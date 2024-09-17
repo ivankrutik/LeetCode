@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "884. Uncommon Words from Two Sentences", "884. Uncommon Words from Two Sentences.csproj", "{B078579E-AB56-4817-B13F-2FC64D912891}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B078579E-AB56-4817-B13F-2FC64D912891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B078579E-AB56-4817-B13F-2FC64D912891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B078579E-AB56-4817-B13F-2FC64D912891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B078579E-AB56-4817-B13F-2FC64D912891}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A4B9240-F840-485B-9A1B-156B6000A4F9}
+	EndGlobalSection
+EndGlobal
