@@ -27,15 +27,15 @@ dictionary contains distinct words
 */
 using _2707._Extra_Characters_in_a_String;
 
-var s = "octncmdbgnxapjoqlofuzypthlytkmchayflwky";
+/*var s = "octncmdbgnxapjoqlofuzypthlytkmchayflwky";
 var dictionary = new string[]
 { "m","its","imaby","pa","ijmnvj","k","mhka","n","y","nc",
     "wq","p","mjqqa","ht","dfoa","yqa","kk","pixq","ixsdln",
     "rh","dwl","dbgnxa","kmpfz","nhxjm","wg","wky","oct","og",
     "uhin","zxb","qz","tpf","hlrc","j","l","tew","xbn","a","uzypt",
-    "uvln","mchay","onnbi","hlytk","pjoqlo","dxsjr","u","uj" };
-/*var s = "sayhelloworld";
-var dictionary = new string[] { "hello", "world" };*/
+    "uvln","mchay","onnbi","hlytk","pjoqlo","dxsjr","u","uj" };*/
+var s = "sayhelloworld";
+var dictionary = new string[] { "hello", "world" };
 
 var res = Helper.MinExtraChar(s, dictionary);
 Console.WriteLine(res);
