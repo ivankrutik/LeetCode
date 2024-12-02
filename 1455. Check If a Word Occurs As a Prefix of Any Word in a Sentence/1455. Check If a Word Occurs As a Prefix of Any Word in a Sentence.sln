@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence", "1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence.csproj", "{731D6BE4-32D7-4BC5-8C10-DCEF9C9C2869}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{731D6BE4-32D7-4BC5-8C10-DCEF9C9C2869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{731D6BE4-32D7-4BC5-8C10-DCEF9C9C2869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{731D6BE4-32D7-4BC5-8C10-DCEF9C9C2869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{731D6BE4-32D7-4BC5-8C10-DCEF9C9C2869}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12F8C2E6-F8A7-4BF6-9805-C1643EA76757}
+	EndGlobalSection
+EndGlobal
