@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2593. Find Score of an Array After Marking All Elements", "2593. Find Score of an Array After Marking All Elements.csproj", "{F5007F58-0ECF-4FD2-AD68-AB78281CFE54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5007F58-0ECF-4FD2-AD68-AB78281CFE54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5007F58-0ECF-4FD2-AD68-AB78281CFE54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5007F58-0ECF-4FD2-AD68-AB78281CFE54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5007F58-0ECF-4FD2-AD68-AB78281CFE54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CEE51FD6-66CB-413E-8518-EA6A992C4FA8}
+	EndGlobalSection
+EndGlobal
