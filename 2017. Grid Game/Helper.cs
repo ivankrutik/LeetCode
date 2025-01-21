@@ -2,77 +2,34 @@
 {
     public static class Helper
     {
-        public static long TotalR1 { get; set; }
-        public static long MaxSum { get; set; }
+        public static long TopSum { get; set; }
+        public static long BottomSum { get; set; }
 
-        private static int[][] CopyMatrix(int[][] grid)
+        private static long GetMax(int[][] matrix, long index)
         {
-            int[][] matrix = new int[grid.Length][];
+            TopSum = TopSum - matrix[0][index];
+            BottomSum = BottomSum + matrix[1][index - 1];
 
-            for (int i = 0; i < matrix.Length; ++i)
-            {
-                matrix[i] = new int[grid[i].Length];
-
-                for (int j = 0; j < matrix[i].Length; ++j)
-                {
-                    matrix[i][j] = grid[i][j];
-                }
-            }
-            return matrix;
+            return Math.Max(TopSum, BottomSum);
         }
-
-        private static void GetMax(int X, int Y, int[][] matrix, long total)
-        {
-            total = total + matrix[X][Y];
-            matrix[X][Y] = 0;
-
-            if (total > MaxSum)
-            {
-                MaxSum = total;
-            }
-
-            if (X + 1 < matrix.Length)
-                GetMax(X + 1, Y, CopyMatrix(matrix), total);
-
-            if (Y + 1 < matrix[X].Length)
-                GetMax(X, Y + 1, CopyMatrix(matrix), total);
-        }
-
-
-        private static void FindPath(int X, int Y, int[][] matrix)
-        {
-            bool isEnd = true;
-            matrix[X][Y] = 0;
-
-            if (X + 1 < matrix.Length)
-            {
-                isEnd = false;
-                FindPath(X + 1, Y, CopyMatrix(matrix));
-            }
-
-            if (Y + 1 < matrix[X].Length)
-            {
-                isEnd = false;
-                FindPath(X, Y + 1, CopyMatrix(matrix));
-            }
-
-            if (isEnd)
-            {
-                MaxSum = 0;
-                GetMax(0, 0, matrix, 0);
-                TotalR1 = Math.Min(TotalR1, MaxSum);
-            }
-        }
-
 
         public static long GridGame(int[][] grid)
         {
-            // 1st
-            GetMax(0, 0, grid, 0);
-            TotalR1 = MaxSum;
-            FindPath(0, 0, grid);
+            TopSum = 0;
+            for (int i = 1; i < grid[0].Length; i++)
+            {
+                TopSum += grid[0][i];
+            }
+            BottomSum = 0;
 
-            return TotalR1;
+            var total = TopSum;
+
+            for (int i = 1; i < grid[0].Length; i++)
+            {
+                total = Math.Min(total, GetMax(grid, i));
+            }
+
+            return total;
         }
     }
 }
