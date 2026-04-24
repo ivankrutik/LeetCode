@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2696. Minimum String Length After Removing Substrings", "2696. Minimum String Length After Removing Substrings.csproj", "{A62535D0-055A-4249-89FB-15FAA41B426B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A62535D0-055A-4249-89FB-15FAA41B426B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A62535D0-055A-4249-89FB-15FAA41B426B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A62535D0-055A-4249-89FB-15FAA41B426B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A62535D0-055A-4249-89FB-15FAA41B426B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {721E5ACE-6B5A-477E-BD04-D1391FCFCB14}
+	EndGlobalSection
+EndGlobal

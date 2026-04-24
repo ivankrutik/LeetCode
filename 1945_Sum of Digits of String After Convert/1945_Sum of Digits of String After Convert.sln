@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1945_Sum of Digits of String After Convert", "1945_Sum of Digits of String After Convert.csproj", "{A49D7D1D-A362-4BA0-BDB3-C86C85B65D5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A49D7D1D-A362-4BA0-BDB3-C86C85B65D5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A49D7D1D-A362-4BA0-BDB3-C86C85B65D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A49D7D1D-A362-4BA0-BDB3-C86C85B65D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A49D7D1D-A362-4BA0-BDB3-C86C85B65D5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68299B1D-DF64-4EDD-ABA7-FFDD771A0EBA}
+	EndGlobalSection
+EndGlobal
